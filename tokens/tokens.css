@@ -1,7 +1,11 @@
 :root {
   /* --- Collection: Default Collection --- */
   /* Category: color */
-  --default-collection-primary-brand: rgba(144, 149, 157, 1); /*  */
+  --default-collection-primary-brand: rgba(40, 106, 212, 1); /*  */
+  --default-collection-bg-brand-default: rgba(168, 64, 64, 1); /*  */
+
+  /* Category: shadow */
+  --default-collection-shadow: 0 4 24 8 rgba(0, 0, 0, 1); /*  */
 
   /* --- Collection: from figma --- */
   /* Category: color */
@@ -20,6 +24,10 @@ html[data-theme="Dark"] {
   /* --- Collection: Default Collection - Mode: Dark --- */
   /* Category: color */
   --default-collection-primary-brand: rgba(222, 85, 85, 1); /*  */
+  --default-collection-bg-brand-default: rgba(209, 146, 146, 1); /*  */
+
+  /* Category: shadow */
+  --default-collection-shadow: 0 4 24 8 rgba(223, 71, 71, 1); /*  */
 
 }
 
