@@ -1,51 +1,34 @@
 :root {
-  /* --- Collection: Semantic --- */
-  /* Category: colors */
-  --semantic-test: rgba(137, 33, 33, 1); /*  */
-  --semantic-bg-primary-test-alias: rgba(209, 192, 192, 1); /* for primary action */
-  --semantic-couleur-bleu-principal: #4d4dff; /* Ceci est un test */
+  /* --- Collection: Default Collection --- */
+  /* Category: color */
+  --default-collection-primary-brand: rgba(144, 149, 157, 1); /*  */
 
-  /* --- Collection: Core --- */
-  /* Category: colors */
-  --core-test: rgba(142, 64, 64, 1); /*  */
+  /* --- Collection: from figma --- */
+  /* Category: color */
+  --from-figma-primary: #a14a4a; /*  */
 
-  /* --- Collection: Norauto --- */
-  /* Category: colors */
-  --norauto-primary-background: #FFFFFF; /* Background color for main surfaces */
-  --norauto-secondary-background: #F5F5F5; /* Default secondary background color used for contrast sections. */
-  --norauto-primary-background: #FFFFFF; /* Main surface background color for UI. */
-  --norauto-accent-color: #0082C3; /* Brand accent color used for highlights or call-to-actions. */
-  --norauto-primary-text: #222222; /* Primary UI text color. */
-  --norauto-secondary-text: #767676; /* Secondary UI text for hints, muted content. */
-  --norauto-error-color: #EF3C3C; /* Error or critical state color. */
-  --norauto-success-color: #29CC6A; /* Success or validation messages color. */
-  --norauto-warning-color: #F9BC3A; /* Warning state color. */
+  /* Category: dimension */
+  --from-figma-space: 1px; /*  */
 
-  /* Category: borders */
-  --norauto-border-default: 1px solid #E0E0E0; /* Default border for UI containers or fields. */
-
-  /* Category: shadows */
-  --norauto-shadow-default: 0 1px 4px 0 #00000014; /* Default shadow for elevation effects. */
+  /* --- Collection: Base Palette --- */
+  /* Category: color */
+  --base-palette-primary-surface: #F5F8FA; /* Couleur principale d’arrière-plan. */
 
 }
 
 html[data-theme="Dark"] {
-  /* --- Collection: Semantic - Mode: Dark --- */
-  /* Category: colors */
-  --semantic-test: rgba(193, 90, 90, 1); /*  */
+  /* --- Collection: Default Collection - Mode: Dark --- */
+  /* Category: color */
+  --default-collection-primary-brand: rgba(222, 85, 85, 1); /*  */
 
 }
 
 html[data-theme="dark"] {
-  /* --- Collection: Core - Mode: dark --- */
-  /* Category: colors */
-  --core-test: rgba(184, 184, 184, 1); /*  */
+  /* --- Collection: from figma - Mode: dark --- */
+  /* Category: color */
+  --from-figma-primary: #697fcf; /*  */
 
-}
-
-html[data-theme="Alt"] {
-  /* --- Collection: Core - Mode: Alt --- */
-  /* Category: colors */
-  --core-test: rgba(224, 81, 81, 1); /*  */
+  /* Category: dimension */
+  --from-figma-space: 2px; /*  */
 
 }
